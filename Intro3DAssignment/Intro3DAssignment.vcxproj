@@ -93,6 +93,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Texel.h" />
+    <ClInclude Include="Utils.h" />
     <ClInclude Include="Vector3D.h" />
     <ClInclude Include="Vertex.h" />
   </ItemGroup>

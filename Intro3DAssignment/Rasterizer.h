@@ -42,7 +42,7 @@ class Rasterizer
 		void DrawGouraudScanLine(float, float, float, float, float, float, float, float, float);
 		void DrawTexturedLine(Model3D&, float, float, float, float, float, float, float, float, float, float, float, float);
 		void DrawString(WCHAR*);
-		template<class T> T Interpolate(T x0,T x1,T y0,T y1,T Y);
+		//template<class T> T Interpolate(T x0,T x1,T y0,T y1,T Y);
 
 	private:
 		unsigned int _width;

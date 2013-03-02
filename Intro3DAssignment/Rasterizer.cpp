@@ -1,5 +1,6 @@
 #include "StdAfx.h"
 #include "Rasterizer.h"
+#include "Utils.h"
 
 Rasterizer::Rasterizer(void)
 {
@@ -775,7 +776,7 @@ void Rasterizer::DrawString(WCHAR* text)
 	_graphics->DrawString(text, -1, &font, origin, &brush);
 }
 
-template<class T> T Rasterizer::Interpolate(T x0,T x1,T y0,T y1,T Y)
+/*template<class T> T Rasterizer::Interpolate(T x0,T x1,T y0,T y1,T Y)
 {
 	return (x0 + ((Y - y0) * ((x1 - x0) / (y1 - y0))));
-}
+}*/
